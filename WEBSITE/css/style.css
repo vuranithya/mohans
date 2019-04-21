@@ -1,0 +1,43 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+#test{
+	
+	background: url(“C:\Users\DELL\Desktop\WEBSITE\test.jpg”) transparent center center no-repeat;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-color: sand;
+	
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: yellow;
+	box-shadow: 10px 10px 5px grey;
+	color: red;
+	padding: 5px 20px;
+	border: 1px solid red;
+	transition: 0.6s ease-in;
+}
+
+ul li a:hover{
+	background-color: yellow;
+	color: blue;
+	transition: 0.6s ease;
+}
+	
